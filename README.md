@@ -12,6 +12,10 @@ It also provides multi-layer security measures to ensure transaction data is saf
 
 
 Demo Credentials
+
+panel/login
+
+
 Admin:
 Email: admin@gmail.com
 Password: 123456
