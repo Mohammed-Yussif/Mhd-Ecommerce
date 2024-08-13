@@ -1,0 +1,5 @@
+<?php
+
+return [
+    'category' => 'المنتجات',
+];

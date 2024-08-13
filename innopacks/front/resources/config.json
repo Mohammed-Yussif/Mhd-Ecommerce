@@ -1,0 +1,17 @@
+{
+    "code": "default",
+    "name": {
+        "zh_cn": "Ecommerce",
+        "en": "Ecommerce"
+    },
+    "description": {
+        "zh_cn": "Ecommerce",
+        "en": "Ecommerce"
+    },
+    "version": "v1.0.0",
+    "icon": "/images/logo.png",
+    "author": {
+        "name": "InnoShop",
+        "email": "mohammed@gmail.com"
+    }
+}

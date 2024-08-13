@@ -1,0 +1,28 @@
+<?php
+ 
+namespace InnoShop\Common\Repositories;
+
+class MailRepo
+{
+    /**
+     * @return static
+     */
+    public static function getInstance(): static
+    {
+        return new static;
+    }
+
+    /**
+     * @return array[]
+     */
+    public function getEngines(): array
+    {
+        $engines = [
+            ['code' => 'smtp', 'name' => 'SMTP', 'value' => 'smtp'],
+            ['code' => 'sendmail', 'name' => 'SENDMAIL', 'value' => 'sendmail'],
+            ['code' => 'log', 'name' => 'LOG', 'value' => 'log'],
+        ];
+
+        return fire_hook_filter('common.repo.mail.engines', $engines);
+    }
+}
