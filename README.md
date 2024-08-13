@@ -15,8 +15,10 @@ Demo Credentials
 Admin:
 Email: admin@gmail.com
 Password: 123456
+
 Email: mohammed@gmail.com
 Password: 123456
+
 User:
 Email: md@gmail.com
 Password: 123456
@@ -26,16 +28,23 @@ To get started with the project, follow these steps:
 
 Clone the repository.
 Install dependencies using composer install.
+
 Compile Front-End Resources ​
 Execute the following command to compile the front-end CSS and JavaScript files:npm install && npm run prod
+
 Set Up the Upload Resources Directory ​
 Run the following command to create and set up the directory for uploaded resources:php artisan storage:link
+
 Configure the database settings in the .env file.
 Set the Application Key ​
 Before generating the APP_KEY, make sure you have the correct read and write permissions for the .env file.
+
 Then, run the following command:php artisan key:generate
+
 Database Migration and Data Seeding ​
 Finally, execute the following commands to create the database structure and import the basic data:php artisan migrate && php artisan db:seed
+
+
 Start the development server with php artisan serve.
 
 
